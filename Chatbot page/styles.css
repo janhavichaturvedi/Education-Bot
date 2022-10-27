@@ -11,7 +11,7 @@
     font-family: 'Roboto', 'Oxygen','Ubuntu', 'Cantarell';
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    background-image: url('background.jpg');
+   / background-image: url('background.jpg');
     height: 100%;
     margin: 0;
   }
