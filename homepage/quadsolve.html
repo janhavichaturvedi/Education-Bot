@@ -1,0 +1,30 @@
+<html>
+<head>
+    <title>lets solve</title>
+</head>
+<body>
+    <script type = "text/javascript">
+        const a=window.prompt("Enter a number");
+        const b=window.prompt("Enter a number");
+        const c=window.prompt("Enter a number");
+        const discriminant = (b*b) - (4*a*c);
+    console.log(a, b, c);
+    console.log(discriminant);
+    if(discriminant > 0){
+        root1 = (-b + Math.sqrt(discriminant)) / (2 * a);
+        root2 = (-b - Math.sqrt(discriminant)) / (2 * a);
+        document.write("The roots of quadratic equation are ",root1,root2,);}
+        else if(discriminant == 0){
+            root1 = root2 = -b / (2 * a);
+            document.write("The roots of quadratic equation are ",root1,root2,);}
+            else{
+               document.write("The roots of quadratic equation are not real.");
+            }
+    </script>
+    <p id="demo"></p>
+
+<script>
+document.getElementById("demo").innerHTML = "Hello JavaScript!";
+</script> 
+</body>
+</html>
